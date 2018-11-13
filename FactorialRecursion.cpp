@@ -12,7 +12,7 @@ int fact(int x)
 }
 int main()
 {
-  int n;
+  int  n;
   cout<<"Enter a number\t";
   cin>>n;
   cout<<"Factorial is : "<<fact(n);
