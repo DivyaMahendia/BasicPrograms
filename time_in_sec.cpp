@@ -17,7 +17,7 @@ class Time
 
 void Time::getTime(void)
 {
-    cout<<"Enter time:"<<endl;
+    cout<<"Enter time:\t"<<endl;
     cout<<"Hours :  ";
     cin>>hh;
     cout<<"Minutes : ";
