@@ -1,3 +1,6 @@
+//Program to check if a string is palindrome or not.
+//A palindrome is a word or a string that reads the same backward and forward.
+
 #include<iostream>
 #include<string.h>
 #include <stdio.h>
