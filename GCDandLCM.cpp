@@ -1,3 +1,5 @@
+// Program to calculate GCD and LCM.
+
 #include<iostream>
 #include<conio.h>
 #include<stdlib.h>
