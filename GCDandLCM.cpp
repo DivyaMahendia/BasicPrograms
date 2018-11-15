@@ -1,4 +1,4 @@
-// Program to calculate GCD and LCM.
+// Program to calculate GCD and LCM of two numbers.
 
 #include<iostream>
 #include<conio.h>
@@ -13,7 +13,7 @@ int gcd(int x, int y)
     b = (x < y) ? x : y; // b is smaller number
 
     r = b;
-    while (a % b != 0)
+    while(a % b != 0)
     {
         r = a % b;
         a = b;
@@ -26,9 +26,9 @@ int lcm(int x, int y)
 {
     int a;
     a = (x > y) ? x : y; // a is greater number
-    while (true)
+    while(true)
     {
-        if (a % x == 0 && a % y == 0)
+        if(a % x == 0 && a % y == 0)
             return a;
         ++a;
     }
@@ -36,13 +36,12 @@ int lcm(int x, int y)
 
 int main(int argc, char **argv)
 {
-    cout << "Enter the two numbers: ";
+    cout<<"Enter the two numbers: ";
     int x, y;
-    cin >> x >> y;
-    cout << "The GCD of two numbers is: " << gcd(x, y) << endl;
-    ;
-    cout << "The LCM of two numbers is: " << lcm(x, y) << endl;
-    ;
+    cin>>x>>y;
+    cout<<"The GCD of two numbers is: "<<gcd(x, y)<<endl;
+    cout<<"The LCM of two numbers is: "<<lcm(x, y)<<endl;
+
     return 0;
 }
 
